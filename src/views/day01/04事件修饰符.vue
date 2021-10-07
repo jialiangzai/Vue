@@ -1,0 +1,29 @@
+<template>
+  <div @click="fatherFn">
+    <!-- vue对事件进行了修饰符设置, 在事件后面.修饰符名即可使用更多的功能 -->
+    <button @click.stop="btn">.stop阻止事件冒泡</button>
+    <a href="http://www.baidu.com" @click.prevent="btn">.prevent阻止默认行为</a>
+    <button @click.once="btn">.once程序运行期间, 只触发一次事件处理函数</button>
+  </div>
+</template>
+<script>
+// js逻辑：dom中插值表达式赋值, vue的变量必须在data里声明
+// 在data函数中定义使用的变量=》任意类型
+//  在template中借助插值语法(胡子语法)=》{{变量名}} ===》放变量和简单的表达式 复杂的是字符串，通过复杂类型的api来获取对应的数据
+export default {
+  data() {
+    return {};
+  },
+  methods: {
+    fatherFn(){
+      console.log("father被触发");
+    },
+    btn(){
+      console.log(1);
+    }
+  },
+};
+</script>
+
+<style>
+</style>
