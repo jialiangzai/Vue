@@ -28,7 +28,7 @@ import Vue from 'vue'
 // 导入 10
 // import App from './views/day01/10car.vue'
 
-// 第二遍
+// 
 // 01
 // import App from './views/day0101/002on.vue'
 // 03
@@ -38,7 +38,7 @@ import Vue from 'vue'
 // import App  from './views/day0101/004mod.vue'
 
 // 05
-import App from './views/day0101/005reverse.vue'
+// import App from './views/day0101/005reverse.vue'
 
 // 06
 // import App from './views/day0101/006v-for.vue'
@@ -50,8 +50,66 @@ import App from './views/day0101/005reverse.vue'
 // 09 购物车
 // import App from './views/day0101/009car.vue'
 
+// 11双向绑定
+// import App from './views/day01/11双向绑定.vue'
+// import App from './views/day01/12vif.vue'
+// 12
+// import App from "./views/day01/13shi.vue"
+
+//第二天
+// import App from './views/day02/01class.vue' 
+
+// import App from './views/day02/03filter.vue'
+// 计算属性
+// import App from './views/day02/04computed.vue'
+// import App from './views/day02/02pin.vue'
+// import App from './views/day02/05computeyou.vue'
+// get  set 完整写法对象格式
+// import App from './views/day02/06完整写法.vue'
+// 全选
+// import App from './views/day02/07全选.vue'
+// shu
+// import App from './views/day02/08shu.vue'
+// 求和
+// import App from './views/day02/09count.vue'
+// 二
+// 折叠面板
+// import App from './views/day0201/02devlop.vue'
+// 品牌
+// import  moment from 'moment'
+
+// import App from './views/day0201/03pinp.vue'
+// Vue.filter('gett',(obj)=>{
+//   return moment(obj).format("YYYY-MM-DD")
+// })
 
 
+// watch
+// import App from './views/day03/01watch.vue'
+
+// 缓存
+// import App from './views/day02/02pin.vue'
+
+// import App from './views/day03/02zujian.vue'
+// 引入组件
+// import panel from './componets/panel.vue'
+// 注册组件
+// Vue.component('Panel',panel)
+
+// import App from './views/day03/03zubu.vue'
+
+// scoped
+// import App from './views/day03/04scoped.vue'
+
+// 组件通信
+import App from './views/day03/05组件通信.vue'
+
+
+
+
+// Vue.filter("toUp", (val) => { // 2. 全局过滤器: 到处使用=>全局注册在main.js中注册, 一处注册到处使用
+//   return val.toUpperCase();
+// });
 
 
 
