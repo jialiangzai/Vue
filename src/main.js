@@ -83,6 +83,20 @@ import Vue from 'vue'
 //   return moment(obj).format("YYYY-MM-DD")
 // })
 
+// 全选
+// import App from './views/day0201/04全选.vue'
+// 书
+// import App from './views/day0201/05shu.vue'
+// shu求和
+// import App from './views/day0201/06add.vue'
+
+
+
+
+
+
+
+
 
 // watch
 // import App from './views/day03/01watch.vue'
@@ -102,12 +116,24 @@ import Vue from 'vue'
 // import App from './views/day03/04scoped.vue'
 
 // 组件通信
-import App from './views/day03/05组件通信.vue'
+// import App from './views/day03/05组件通信.vue'
 
 
 
 
-// Vue.filter("toUp", (val) => { // 2. 全局过滤器: 到处使用=>全局注册在main.js中注册, 一处注册到处使用
+// san
+
+
+// import App from './views/day0301/01comp.vue'
+// import Panel from './componets/panel.vue'
+// 全局注册组件必须写
+// Vue.component('Panel',Panel)
+
+// import App from './views/day0301/02scoped.vue'
+
+//  通信
+import App from './views/day0301/03组件通信.vue'
+ // Vue.filter("toUp", (val) => { // 2. 全局过滤器: 到处使用=>全局注册在main.js中注册, 一处注册到处使用
 //   return val.toUpperCase();
 // });
 
