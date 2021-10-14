@@ -1,0 +1,37 @@
+<template>
+  <div>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>序号</th>
+          <th>姓名</th>
+          <th>年龄</th>
+          <th>头像</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr v-for="(obj, index) in arr" :key="index">
+          <td>{{ index + 1 }}</td>
+          <td>{{ obj.name }}</td>
+          <td>{{ obj.age }}</td>
+          <td>
+            <!-- 定制某一列数据的显示 -->
+            <!-- 不传就显示头像地址 -->
+            <slot name="img" :src="obj.headImgUrl">{{ obj.headImgUrl }}</slot>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</template>
+
+<script>
+export default {
+  props: {
+    arr: {
+      type: Array,
+      default: () => [],
+    },
+  },
+};
+</script>

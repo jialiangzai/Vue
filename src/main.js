@@ -125,17 +125,60 @@ import Vue from 'vue'
 
 
 // import App from './views/day0301/01comp.vue'
-// import Panel from './componets/panel.vue'
+// import Pannel from './componets/panel.vue'
 // 全局注册组件必须写
-// Vue.component('Panel',Panel)
+// Vue.component('Pannel',Pannel)
+// import App from './views/day05/slot.vue'
 
 // import App from './views/day0301/02scoped.vue'
 
 //  通信
-import App from './views/day0301/03组件通信.vue'
+// import App from './views/day0301/03组件通信.vue'
+// 全局映入axios
+// import axios from 'axios'
+// axios.defaults.baseURL = "http://123.57.109.30:3006"
+// 生命周期
+// import App from './views/day04/01生命周期.vue'
+
+// import App from './views/day04/02axios.vue'
+// import App  from './views/day04/03ref.vue'
+
+//  dog
+// import App from './views/day03/06dog.vue'
+
+
+// wu
+// import App from './views/day05/01动态组件.vue'
+
+// 插槽
+// import App from './views/day05/作用域插槽使用场景.vue'
+
+// import App from './views/day05/directive.vue'
+// import App from './views/day05/传参更新.vue'
+
+// Vue.directive("foc", {
+//   inserted(el){
+//     el.focus()
+//   }
+// })
  // Vue.filter("toUp", (val) => { // 2. 全局过滤器: 到处使用=>全局注册在main.js中注册, 一处注册到处使用
 //   return val.toUpperCase();
 // });
+
+
+//  二
+// import App from './views/day0501/01动态组件.vue'
+// 插槽
+// import App from './views/day0501/02插槽.vue'
+// table
+// import App from './views/day0501/03作用域插槽.vue'
+// directive
+import App from './views/day0501/04directive.vue'
+// Vue.directive('focus',{
+//   inserted(el){
+//     el.focus()
+//   }
+// })
 
 
 
