@@ -1,8 +1,6 @@
 <template>
   <div>
-    <!-- 
-    	v-model:是实现vuejs变量和表单标签value属性, 双向绑定的指令 v-model的修饰符 trim number lazy做双向绑定的值value预处理，默认value,value是显示数据的，但优先显示标签的内容
-    -->
+    <!-- v-model:是实现vuejs变量和表单标签value属性, 双向绑定的指令 v-model的修饰符 trim number lazy做双向绑定的值value预处理，默认value,value是显示数据的，但优先显示标签的内容-->
     <!-- 绑定输入 -->
     <div>
       <span>用户名:</span>

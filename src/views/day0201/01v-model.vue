@@ -1,8 +1,6 @@
 <template>
   <div>
-    <!-- 
-    	v-model:是实现vuejs变量和表单标签value属性, 双向绑定的指令
-    -->
+    <!-- v-model:是实现vuejs变量和表单标签value属性, 双向绑定的指令-->
     <!-- 绑定输入 -->
     <div>
       <span>用户名:</span>

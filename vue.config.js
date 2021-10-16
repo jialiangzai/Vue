@@ -4,5 +4,5 @@ module.exports = {
       open: true,
       port: 3000
     },
-    lintOnSave: false // 关闭eslint检查
+    lintOnSave: true // 关闭eslint检查
   }

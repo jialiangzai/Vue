@@ -173,13 +173,15 @@ import Vue from 'vue'
 // table
 // import App from './views/day0501/03作用域插槽.vue'
 // directive
-import App from './views/day0501/04directive.vue'
+// import App from './views/day0501/04directive.vue'
 // Vue.directive('focus',{
 //   inserted(el){
 //     el.focus()
 //   }
 // })
-
+// import App from './views/day06/01路由原理.vue'
+// import App from './views/day0601/01路由原理.vue'
+import App from './views/day0602/01路由原理.vue'
 
 
 // 生产环境提示关闭

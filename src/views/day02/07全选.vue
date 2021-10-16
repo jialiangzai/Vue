@@ -52,7 +52,7 @@ export default {
       // 设置isAll的值的时候触发此方法, 传入要设置的值
       // val是全选框的true/false的值
       set(val) {
-        return this.arr.forEach((t, i) => {
+        return this.arr.forEach(t => {
           t.checked = val;
         });
       },
